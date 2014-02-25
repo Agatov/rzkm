@@ -1,8 +1,8 @@
 $ ->
 
 
-  $('.play-icon').on 'click', ->
-    window.show_video("#about-us-video-html")
+#  $('.play-icon').on 'click', ->
+#    window.show_video("#about-us-video-html")
 
   $('#scroll-to-calculator-button').on 'click', ->
     $('body').animate({scrollTop: $('#calculator').offset().top}, 'slow')

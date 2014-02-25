@@ -1,7 +1,7 @@
 $ ->
 
   waitForMap ->
-    @map = new ymaps.Map($("#map")[0], {center: [55.7990, 37.54527], zoom: 15})
+    @map = new ymaps.Map($("#map")[0], {center: [47.286188, 39.625801], zoom: 15})
 
 #      balloon = new ymaps.Balloon(@map, null, {
 #        contentLayout: '<div style="background: #fff; width: 400px; height: 300px;">asdasdasdasd</div>'
@@ -13,7 +13,7 @@ $ ->
     ymaps.layout.storage.add('place#balloonLayout', balloonLayout)
 
     placemark = new ymaps.Placemark(
-      [55.798154, 37.54527],
+      [47.286188, 39.625801],
       {
         content: $("#balloon-template").html()
       },
