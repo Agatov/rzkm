@@ -1,0 +1,180 @@
+.about
+  width: 100%
+  height: 520px
+  background: #fff
+  padding: 50px 0
+
+
+  .about-title
+    font-family: 'PFCentroSlabPro-Light'
+    font-size: 40px
+    color: #282828
+    text-align: center
+
+    padding: 60px 0
+
+
+  .about-container
+    width: 960px
+    height: 330px
+
+    .about-image
+      float: left
+      width: 510px
+      height: 300px
+      background: url('/images/armatura5.png') no-repeat
+      background-size: 100%
+
+    .about-arrows
+      float: right
+      width: 450px
+      height: 300px
+      position: relative
+
+
+      .arrow
+        position: absolute
+        top: 0px
+        left: 0px
+        cursor: pointer
+
+        &.arrow-1
+          width: 250px
+
+          .arrow-body
+            width: 190px
+
+        &.arrow-2
+          top: 0px
+          left: 230px
+          width: 195px
+
+          .arrow-body
+            width: 135px
+
+        &.arrow-3
+          top: 55px
+          left: 30px
+          width: 220px
+
+          .arrow-body
+            width: 160px
+
+        &.arrow-4
+          top: 55px
+          left: 230px
+          width: 195px
+
+          .arrow-body
+            width: 135px
+
+        &.arrow-5
+          top: 110px
+          left: 10px
+          width: 415px
+
+          .arrow-body
+            width: 355px
+
+
+        &.arrow-6
+          top: 165px
+          left: 45px
+          width: 380px
+
+          .arrow-body
+            width: 320px
+
+        &.arrow-7
+          top: 220px
+          left: -10px
+          width: 435px
+
+          .arrow-body
+            width: 375px
+
+
+
+
+.arrow
+  width: 300px
+  height: 50px
+
+  &:after
+    clear: both
+    content: "."
+    display: block
+    height: 0
+    clear: both
+    visibility: hidden
+
+  .arrow-head
+    float: left
+    width: 30px
+    height: 50px
+
+  .arrow-body
+    float: left
+    width: 200px
+    height: 50px
+    font-family: 'PFCentroSlabPro-Regular'
+    font-size: 18px
+    text-align: center
+    line-height: 50px
+
+
+  .arrow-tail
+    float: left
+    width: 30px
+    height: 50px
+
+
+
+  &.yellow
+
+    .arrow-head
+      background: url('/images/arrows/yellow_arrowhead_left.png') no-repeat
+
+    .arrow-body
+      background: #f8aa00
+      background: linear-gradient(top, #fed700, #f8aa00)
+      background: -moz-linear-gradient(top, #fed700, #f8aa00)
+      background: -o-linear-gradient(top, #fed700, #f8aa00)
+      background: -webkit-linear-gradient(top, #fed700, #f8aa00)
+      color: #282828
+
+    .arrow-tail
+      background: url('/images/arrows/yellow_tail_left.png') no-repeat
+
+
+    &.right
+      .arrow-head
+        background: url('/images/arrows/yellow_tail_right.png') no-repeat
+
+      .arrow-tail
+        background: url('/images/arrows/yellow_arrowhead_right.png') no-repeat
+
+  &.black
+
+    .arrow-head
+      background: url('/images/arrows/black_arrowhead_left.png') no-repeat
+
+    .arrow-body
+      background: #282828
+      background: linear-gradient(top, #3c3c3c, #282828)
+      background: -moz-linear-gradient(top, #3c3c3c, #282828)
+      background: -o-linear-gradient(top, #3c3c3c, #282828)
+      background: -webkit-linear-gradient(top, #3c3c3c, #282828)
+      color: #fff
+
+    .arrow-tail
+      background: url('/images/arrows/black_tail_left.png') no-repeat
+
+    &.right
+
+      .arrow-head
+        background: url('/images/arrows/black_tail_right.png') no-repeat
+
+      .arrow-tail
+        background: url('/images/arrows/black_arrowhead_right.png') no-repeat
+

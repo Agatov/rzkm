@@ -1,0 +1,214 @@
+.topbar
+  .wrapper
+    .logo
+      %img{src: '/images/logo.png'}
+      .logo-text
+        Ростовский Завод Композитных Материалов
+    .phone
+      (495) 841-89-89
+      .phone-text
+        Работаем с 9:00, до 19:00
+.intro
+  .wrapper
+
+    .title
+      Производство, продажа и доставка
+      %br
+      стеклопластиковой арматуры по всей России
+    .play-icon#video-button
+    .sub-title
+      Узнайте сколько вы можете сэкономить,
+      %br
+      заказав
+      стеклопластиковую арматуру вместо железной
+
+    .button#scroll-to-calculator-button
+      Узнать!
+
+.about
+  .wrapper
+    .about-title
+      Преимущества стеклопластиковой арматуры
+
+    .about-container
+      .about-image
+      .about-arrows
+
+        .arrow.yellow.animated-arrow.arrow-1
+          .arrow-head
+          .arrow-body На 20% дешевле
+          .arrow-tail
+
+        .arrow.black.animated-arrow.arrow-2
+          .arrow-head
+          .arrow-body Диэлектрик
+          .arrow-tail
+
+        .arrow.black.animated-arrow.arrow-3
+          .arrow-head
+          .arrow-body 80 лет службы
+          .arrow-tail
+
+        .arrow.yellow.animated-arrow.arrow-4
+          .arrow-head
+          .arrow-body Не ржавеет
+          .arrow-tail
+
+        .arrow.yellow.animated-arrow.arrow-5
+          .arrow-head
+          .arrow-body На 250% прочнее железной арматуры
+          .arrow-tail
+
+        .arrow.black.animated-arrow.arrow-6
+          .arrow-head
+          .arrow-body В 10 раз легче железной арматуры
+          .arrow-tail
+
+        .arrow.yellow.animated-arrow.arrow-7
+          .arrow-head
+          .arrow-body Значительно проще в транспортировке
+          .arrow-tail
+
+.why
+  .wrapper
+    .why-title
+      Почему стеклопластиковую арматуру
+      %br
+      стоит купить у нас?
+
+    .why-schema
+      .because
+        Заказывая у нас Вы:
+
+      .arrow.black.right.first-arrow
+        .arrow-head
+        .arrow-body Не переплачиваете
+        .arrow-tail
+
+      .arrow.yellow.right.last-arrow
+        .arrow-head
+        .arrow-body Гарантированно и в срок получаете качественную продукцию
+        .arrow-tail
+
+    .why-image
+
+
+.calculator#calculator
+  .wrapper
+    .calculator-title
+      Давате посчитаем
+      %br
+      Укажите длинну и выберите диаметр
+
+    .calculator-body
+      %input#weight{type: :text, placeholder: '1000 погонных метров'}
+
+      .arrow.yellow.right.calculator-arrow
+        .arrow-head
+        .arrow-body
+          %ul.diameters
+            %li{diameter: 4, price: 6.56, weight: 0.03, steel_weight: 0.19}
+              АСП 4
+            %li{diameter: 6, price: 9.20, weight: 0.04, steel_weight: 0.4}
+              АСП 6
+            %li{diameter: 12.00, price: 4, weight: 0.08, steel_weight: 0.84}
+              АСП 8
+            %li{diameter: 10, price: 18.40, weight: 0.13, steel_weight: 1.19 }
+              АСП 10
+            %li{diameter: 12, price: 25.60, weight: 0.2, steel_weight: 1.42}
+              АСП 12
+            %li{diameter: 14, price: 34.40, weight: 0.28, steel_weight: 2.22}
+              АСП 14
+            %li{diameter: 16, price: 40, weight: 0.32, steel_weight: 2.81}
+              АСП 16
+        .arrow-tail
+
+
+    .calculator-diameter-price
+      Ø
+      %span#diameter-value 4
+      мм
+      %span.blue
+        %span#diameter-price 8
+        руб./пог.м
+
+
+    .calculator-results
+      .result
+        .icon.less
+        .facts
+          .fact-text
+            Вес при такой длинне
+            %br
+            композитной арматуры:
+          .number
+            %span#total-composite-weight 1
+            кг
+      .result
+        .icon.more
+        .facts
+          .fact-text
+            Вес при такой длинне
+            %br
+            железной арматуры:
+          .number
+            %span#total-steel-weight 1
+            кг
+      .result.last
+        .icon.budget
+        .facts
+          .fact-text
+            Стоимость при такой длине составит
+          .number.big-number
+            %span#total-price 100
+            Р
+
+
+
+
+.form
+  .wrapper
+    .form-title
+      Оставьте заявку на расчет, и наш менеджеры
+      %br
+      свяжется с Вами в течении 30 минут
+
+    .form-block
+      %input{type: :text, name: :username, placeholder: 'Введите ваше имя'}
+      %input.last{type: :text, name: :phone, placeholder: 'Введите номер телефона'}
+      .button#send-order Отправить
+
+
+#map
+
+%script#balloon-template{type: :template}
+  .balloon
+    .content
+      Мы находимся в г. Ростов,
+      %br
+      на улице Ленина, дом 51.
+      %br
+      тел: 8 (495) 841-89-89
+    .arrow-up
+
+.video-modal-bg
+.video-modal
+
+
+
+%script#about-us-video-html{type: 'template'}
+  %iframe{src: '//www.youtube.com/embed/WYWaxEEvaPI?rel=0&enablejsapi=1&autoplay=1',
+                          width: 853,
+                          height: 480, frameborder: 0}
+
+
+.topbar
+  .wrapper
+    .logo
+      %img{src: '/images/logo.png'}
+      .logo-text
+        Ростовский Завод Композитных Материалов
+    .phone
+      (495) 841-89-89
+      .phone-text
+        Работаем с 9:00, до 19:00

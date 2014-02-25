@@ -1,0 +1,142 @@
+.calculator
+  width: 100%
+  background: #fff
+  height: 610px
+
+
+  .calculator-title
+    font-family: 'PFCentroSlabPro-Light'
+    font-size: 40px
+    color: #282828
+    text-align: center
+    padding: 70px 0
+    line-height: 1.3
+
+
+  .calculator-body
+    position: relative
+    width: 960px
+    height: 50px
+
+    input
+      width: 270px
+      height: 50px
+      border: 1px solid #cccccc
+      outline: none
+      font-family: 'PFCentroSlabPro-Regular'
+      font-size: 16px
+      color: #4c4c4c
+      text-align: center
+
+    .calculator-arrow
+      width: 680px
+      position: absolute
+      top: 0px
+      left: 280px
+
+
+      .arrow-body
+        width: 620px
+
+        .diameters
+
+          li
+            display: block
+            float: left
+            list-style-type: none
+            width: 80px
+            margin-right: 5px
+            text-align: center
+            cursor: pointer
+            font-family: 'PFCentroSlabPro-Regular'
+            font-size: 16px
+            color: #282828
+
+            &.active
+              font-family: 'PFCentroSlabPro-Medium'
+              width: 80px
+              height: 65px
+              padding-top: 15px
+              border-radius: 80px
+              margin-top: -15px
+              background: #000
+              color: #fff
+
+
+  .calculator-diameter-price
+    width: 300px
+    font-family: 'PFCentroSlabPro-Regular'
+    font-size: 18px
+    margin: 35px auto
+    color: #282828
+
+    .blue
+      padding-left: 20px
+      color: #1c70b0
+
+
+  .calculator-results
+    margin: 80px 0
+
+    &:after
+      clear: both
+      content: "."
+      display: block
+      height: 0
+      clear: both
+      visibility: hidden
+
+
+    .result
+      float: left
+      width: 300px
+      height: 110px
+      margin-right: 20px
+
+      &.last
+        margin-right: 20px
+
+
+
+      .icon
+        float: left
+        width: 80px
+        height: 100%
+
+        &.less
+          background: url('/images/less_icon.png') no-repeat
+          background-position: bottom
+
+        &.more
+          background: url('/images/more_icon.png') no-repeat
+          background-position: bottom
+
+        &.budget
+          background: url('/images/budget_icon.png') no-repeat
+          background-position: bottom
+
+
+      .facts
+        float: right
+        width: 180px
+        padding: 0 20px
+
+
+        .fact-text
+          font-family: 'PFCentroSlabPro-Regular'
+          font-size: 16px
+          color: #282828
+          line-height: 1.3
+          padding-top: 20px
+          padding-bottom: 20px
+
+        .number
+          font-family: 'PFCentroSlabPro-Light'
+          font-size: 40px
+          color: #282828
+
+          &.big-number
+            font-size: 36px
+
+
+
